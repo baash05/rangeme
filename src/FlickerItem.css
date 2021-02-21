@@ -1,0 +1,22 @@
+.FlickerItems{ margin-top: 10px; columns: 130px; max-width: 1100px; width: 90vw }
+
+
+.FlickerItem{
+  background-color: #c18f52;
+  padding: 10px;
+  width: 120px;
+  margin: 10px;
+  break-inside: avoid-column;
+  display: inline-block;
+  color: black;
+  font-size: 16px;
+}
+.FlickerItem > .details_container{
+  width: 100vw;
+  height: 100vh;
+  background: #88805f77;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}

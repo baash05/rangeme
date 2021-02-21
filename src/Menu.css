@@ -1,0 +1,28 @@
+.App > menu{
+  background-color: #7e7b19;
+  margin: 0;
+  text-align: left;
+  padding: 10pt 5pt;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  color: white;
+}
+
+.App > menu > .logo{
+  font-size: x-large;
+  line-height: 1em;
+  font-weight: 800;
+}
+
+.search_box{
+  padding-right: 20pt;
+  float: right;
+}
+
+.search_box > input{
+  padding: 6px;
+  border-radius: 4px;
+  outline: none;
+  cursor: help;
+}

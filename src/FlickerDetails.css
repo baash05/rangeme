@@ -1,0 +1,24 @@
+.FlickerDetails {
+  padding: 20px;
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  margin-top: 5vh;
+  border: #7e7b19bf 4px solid;
+  border-radius: 4px;
+}
+.FlickerDetails > h1{margin: auto; font-size: x-large; font-weight: 200;}
+.FlickerDetails > .close_button{float: right;
+  margin-top: -20px;
+  margin-right: -20px;
+  transform: rotate(45deg);
+  padding: 3px;
+  font-size: 20px;
+  font-weight: 600;}
+.FlickerDetails > img { max-height: 50vh; }
+.FlickerDetails > .close_button:hover{color: red}
+.tags{max-width: 400px;}
+.url, .date, .tags{text-align: left; line-height: 1.6em; font-weight: 800;}
+.thumb{border: transparent solid 2px;}
+.thumb:hover{border: blue solid 2px; cursor: zoom-in;}
+label{ font-size: smaller; font-weight: 300; padding-right: 10px;}
